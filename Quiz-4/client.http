@@ -1,0 +1,24 @@
+GET http://localhost:3000/
+
+####
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "Zodiac",
+    "password": "password"
+}
+//Must have at least 1 line space between POSt request and data above
+
+###
+
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "username"  :   "UTeM-FKEKK6",
+    "password"  :   "passwordMelaka",
+    "email"     :   "utemfkekk@mail.my",
+    "name"      :   "utemfkekkuser00"
+}
